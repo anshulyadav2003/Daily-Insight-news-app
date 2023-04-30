@@ -13,7 +13,7 @@ import {
 const App = ()=>{
   const apiKey = process.env.REACT_APP_NEWS_API;
 
-  let pageSize=12;
+  const pageSize=12;
   const [progress, setProgress] = useState(0);
 
   return (
@@ -43,10 +43,9 @@ export default App
 
 
 /****************************** Class based component  **************************/
+// import React, { Component } from 'react'
 // export default class App extends Component {
 //   apiKey = process.env.REACT_APP_NEWS_API;
-  
-//   // apiKey = "fe9b7ad4d0f14f518da6961f30db83ff";
 
 //   pageSize=12;
 //   state = {progress: 0};
